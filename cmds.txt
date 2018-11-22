@@ -4,7 +4,11 @@ git push all master - pushing to multiple remotes at once
 
 git remote show origin
 
+git clone --bare url  - no editable config files .git
 
+
+git clone --mirror url
+ git init --bare
 
 
 git checkout -b branchname remotename/branchname (incase of multiple origins)
