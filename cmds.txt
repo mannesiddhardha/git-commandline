@@ -1,5 +1,12 @@
 git remote add nameoforigin URL
 
+git push all master - pushing to multiple remotes at once
+
+git remote show origin
+
+
+
+
 git checkout -b branchname remotename/branchname (incase of multiple origins)
 
 git config --list
